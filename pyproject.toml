@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "student-management"
+version = "0.1.0"
+description = "A student database management system made with PySimpleGUI and SQLite3 for educational purposes"
+authors = ["Mapondera Hillary"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+PySimpleGUI = "^4.60.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
