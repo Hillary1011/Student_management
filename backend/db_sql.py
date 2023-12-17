@@ -214,6 +214,7 @@ class StudentManagement:
             with self.conn:
                 self.c.execute("""SELECT major, COUNT(major) as [Students Count]
                                   FROM students_data
+                                  WHERE major <> 'Admin'
                                   group by major"""
                                )
                 return self.c.fetchall()
@@ -241,6 +242,7 @@ class StudentManagement:
 
 
 s1 = StudentManagement()
+
 # s1.delete_student("Geography")
 # print(s1.get_all_admin())
 print(s1.display_major_counts())

@@ -17,7 +17,7 @@ This project is a simple student database management system made with PySimpleGU
 ![Login](projectsnapshots/snap4.png)
 
 
-## Directory Structure
+## Directory StructureR
 ```bash
 STUDENT_ANAGEMENT/
 |-- backend/

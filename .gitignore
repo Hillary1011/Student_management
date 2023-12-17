@@ -1,2 +1,5 @@
 backend/students_enrolled.db
 guis/try.py
+students_enrolled.db
+backend/__pycache__/
+guis/__pycache__/
